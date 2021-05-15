@@ -1,0 +1,149 @@
+<!-- 
+	Author: Kitty Cheung
+	Date: April 20, 2021
+	Description:  Microsite that spotlights designer Elisa Ossino for 
+	the festival Salone del Mobile, created as a UX Developer Final 
+	Project for the course IAT 235: Information Design
+-->
+
+<!doctype html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/main.css">
+		<title>Elisa Ossino | Salone del Mobile</title>
+
+		<!-- fonts --> 
+		<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@400;700&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+	</head>
+
+	<body>
+		<header>
+			<div class="nav-container">
+				<nav>
+					<a href="https://www.salonemilano.it/en">
+						<img src="img/logo.PNG" alt="Salone del Mobile logo, shown as a tilted red square" width="50">
+					</a>
+					<div class="nav-right">
+						<a href="#home">Home</a> 
+						<a href="#about">About</a>
+						<a href="#projects">Projects</a>
+						<a href="#festival">Festival</a>
+					</div><!-- end of nav-right --> 
+				</nav>
+			</div><!-- nav-container -->
+		</header>
+
+		<section id="home">
+			<video playsinline autoplay muted loop id="landing-video">
+				<source src="img/ossino-quote-video.mp4" type="video/mp4" alt="A looping video from an interview with Ossino. She is saying 'I believe that, unconsciously, my design is always an interpretation of the times we live, but it really matters to me that objects last long'">
+			</video>
+
+			<div class="title-overlay">
+				<h1>Elisa Ossino</h1>
+				<h3>The Salone del Mobile's Featured Designer</h3>
+			</div><!-- end of title-overlay -->
+		</section><!-- end of home -->
+
+		<section id="about">
+			<div class="grid-container">
+				<h2>About Elisa Ossino</h2>
+				<div class="about-body-copy">
+					<p>Elisa Ossino is an architect and interior designer with a talented eye for geometry, space, and light. She also uses monochromatic colour palettes, letting the beauty of her shape and colour choices resonate with simplicity. Trained in architecture at the Politecnico di Milano, she currently runs her own studio, Elisa Ossino Studio, and teaches in the “Interactive Media for Interior Design” program at the IUAV University of Venice <a href="https://www.depadova.com/designer/elisa-ossino/">(De Padova, n.d., para. 1-4)</a>. At the Salone del Mobile, Elisa Ossino Studio has both held its own exhibitions and styled booths for other companies for over 15 years <a href="https://www.elisaossino.it/porro-salone-del-mobile">(Elisa Ossino Studio, n.d., para. 2)</a>.</p>
+
+					<p>Ossino moves fluidly between different forms of design, from interiors to products to art direction. Her versatility comes from being able to specifically analyze the details that make a project stand out and building a visual identity from there <a href="https://www.elledecor.com/it/best-of/a32802323/elisa-ossino-interview/">(Donati de Conti, 2020, para. 7)</a>. She is inspired by both the past and present, learning from design history while also allowing her pieces to reflect current moments in culture. The resulting projects are simultaneously modern and timeless <a href="https://www.elledecor.com/it/best-of/a32802323/elisa-ossino-interview/">(Donati de Conti, 2020, para. 9)</a>.</p>
+				</div><!-- end of about-body-copy -->
+				
+				<figure>
+					<img src="img/casa-salvatori.jpg" alt="A living room designed by Ossino with modern chairs, coffee table, red couch, and patterned tile floor. Daylight streams in from large windows. A painting of a circle, triangle, and square hangs above a fireplace." width="1000" height="630">
+
+					<figcaption>Notice how Ossino's interplay between colour, light, and geometry creates a welcoming space in this <a href="https://www.elisaossino.it/salvatori-home">home</a> for the design brand Salvatori.</figcaption>
+				</figure>
+			</div><!-- end of grid-container -->
+			
+			<div class="timeline-instructions">
+				<h2>Career Milestones</h2>
+				<p>Hover over the years to learn more.</p>
+			</div><!-- end of timeline-instructions -->
+
+			<div class="timeline">
+				<div class="line"></div>
+
+				<div class="dot-container">
+					<div class="dot" id="dot-2006">
+						<p>2006</p>
+					</div>
+					<div class="hide" id="content-2006">
+						<p>Founded Elisa Ossino Studio, leading a team of creative professionals to design interior spaces, products, sets, and advertising campaigns</p>
+					</div>
+
+					<div class="dot" id="dot-2016">
+						<p>2016</p>
+					</div>
+					<div class="hide" id="content-2016">
+						<p>Began her teaching position at the IUAV University of Venice</p>
+					</div>
+
+					<div class="dot" id="dot-2019">
+						<p>2019</p>
+					</div>
+					<div class="hide" id="content-2019">
+						<p>Co-founded the design company H+O with partner Josephine Akvama Hoffmeyer and introduced this project with the exhibit "Perfect Darkness" at the 2019 Salone del Mobile</p>
+					</div>
+
+					<div class="dot" id="dot-2020">
+						<p>2020</p>
+					</div>
+					<div class="hide" id="content-2020">
+						<p>Awarded the Elle Deco International Design Award for “Best Bathroom” for Balnea, a white marble bathroom line designed for Salvatori</p>
+					</div>
+				</div><!-- end of dot-container -->
+			</div><!-- end of timeline -->
+		</section><!-- end of about -->
+
+		<section id="projects" class="indent">
+			<h2>Projects</h2>
+			<div class="project-flex-container">
+				<div class="project-img-container" id="ritagli-container">
+					<a href="ritagli.html">
+						<img src="img/ritagli-cover.jpg" alt="A rug designed by Ossino, showing circle, triangle, and rectangle shapes" width="750" height="925">
+					</a>
+					<div class="hover-text" id="ritagli-hover-text">
+						<a href="ritagli.html"><h4>Ritagli</h4></a>
+					</div><!-- end of ritagli-hover-text -->
+				</div><!-- end of ritagli-container -->
+
+				<div class="project-img-container" id="the-circle-container">
+					<a href="the-circle.html">
+						<img id="the-circle" src="img/the-circle-cover.jpg" alt="A furniture set designed by Ossino, with nude colours and rounded angles" width="617" height="925">
+					</a>
+					<div class="hover-text" id="the-circle-hover-text">
+						<a href="the-circle.html"><h4>The Circle</h4></a>
+					</div><!-- end of the-circle-hover-text -->
+				</div><!-- end of the-circle-container -->
+			</div><!-- end of project-flex-container -->
+		</section><!-- end of projects -->
+
+		<section id="festival">
+			<div class="grid-container">
+				<h2>Interested in more of Ossino’s work?</h2>
+				<h4>Visit Elisa Ossino Studio and other talented designers including Faty Ly, Li Xiang, and Agustina Bottoni at the <a href="https://www.salonemilano.it/en">2021 Salone del Mobile</a>.</h4>
+				<p>September 5-10, 2021 | Milan, Italy | Tickets €25</p>
+			</div><!-- end of grid-container -->
+		</section><!-- end of festival -->
+
+		<footer class="grid-container">
+			<div class="footer-left">
+				<p>Microsite designed and built by Kitty Cheung</p>
+				<p>Spring 2021</p>
+			</div><!-- end of footer-left -->
+			
+			<div class="footer-right">
+				<p><a href="Kitty-Cheung-References.pdf">References</a></p>
+				<p><a href="Kitty-Cheung-Design-Docs.pdf">Design Documentation</a></p>
+			</div><!-- end of footer-right -->
+		</footer>
+	</body>
+</html>
